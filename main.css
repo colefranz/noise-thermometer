@@ -1,0 +1,153 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#growth-area {
+  top: 0;
+  bottom: 20%;
+  z-index: 11;
+}
+
+#footer {
+  top: 80%;
+  bottom: 0;
+  background: green;
+}
+
+#header {
+  top: 0%;
+  bottom: 80%;
+  background: red;
+}
+
+.background {
+  position: absolute;
+  z-index: 10;
+}
+
+.top {
+  top: 20%;
+  bottom: 40%;
+  background: linear-gradient(to top, yellow, red); 
+}
+
+.bottom {
+  top: 60%;
+  bottom: 0;
+  background: linear-gradient(to top, green, yellow); 
+}
+
+#cover {
+  position: absolute;
+  z-index: 11;
+  background: transparent;
+  height: 150%;
+  animation: rocking 10s linear alternate infinite;
+}
+
+.input-container {
+  position: relative;
+  z-index: 100;
+}
+
+.button {
+  position: relative;
+  z-index: 100;
+  background: white;
+  width: 50px;
+  height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+input[type=range] {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 50%;
+}
+input[type=range]:focus {
+  outline: none;
+}
+input[type=range]::-webkit-slider-runnable-track {
+  width: 50%;
+  height: 7px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 0px 0px 1px #000000;
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px solid #010101;
+}
+input[type=range]::-webkit-slider-thumb {
+  box-shadow: 1px 1px 2px #000000;
+  border: 1px solid #00001E;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: #00FF00;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5.5px;
+}
+input[type=range]:focus::-webkit-slider-runnable-track {
+  background: #FFFFFF;
+}
+
+div {
+  left: 0;
+  right: 0;
+}
+
+#svg-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  z-index: 11;
+}
+
+#thermometer {
+  height: 100%;
+}
+
+/*@keyframes rocking {
+  0% { 
+    transform: rotate(0deg);
+  }
+  33% {
+    transform: rotate(1deg);
+  }
+  66% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}*/
+
+@keyframes rocking {
+  0% { 
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+  16% {
+    transform: translate(-5%, 0%) rotate(-0.5deg);
+  }
+  33% {
+    transform: translate(-10%, 0%) rotate(0.5deg);
+  }
+  50% {
+    transform: translate(-5%, 0%) rotate(-0.5deg);
+  }
+  66% {
+    transform: translate(0%, 0%) rotate(0.5deg);
+  }
+  83% {
+    transform: translate(-5%, 0%) rotate(-0.5deg);
+  }
+  100% {
+    transform: translate(-10%, 0%) rotate(0deg);
+  }
+}

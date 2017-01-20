@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="128"
+   height="32"
+   viewBox="0 0 128 32.000001"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="ripple-cover-ink.svg"
+   inkscape:export-filename="C:\Users\Cole\Documents\noise-thermometer\ripple-cover.png"
+   inkscape:export-xdpi="450"
+   inkscape:export-ydpi="450">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="9.3691649"
+     inkscape:cx="71.65534"
+     inkscape:cy="0.71344527"
+     inkscape:document-units="px"
+     inkscape:current-layer="svg2"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px"
+     showguides="false"
+     inkscape:snap-grids="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4136" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+  <path
+     style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+     d="M 0.5 -0.5 L 0.5 30.5 C 0.5 30.5 2.9635506 29.548634 4.2480469 29.591797 C 5.2554667 29.62565 6.1289384 30.409019 7.1328125 30.5 C 8.7091861 30.642866 10.263184 29.827391 11.84375 29.912109 C 12.697054 29.957846 13.4916 30.603447 14.339844 30.5 C 15.230051 30.391436 15.841101 29.352913 16.734375 29.273438 C 18.130248 29.149243 19.357239 30.385076 20.753906 30.5 C 22.100188 30.610778 23.424815 29.860834 24.771484 29.966797 C 25.393497 30.01574 25.944562 30.44895 26.566406 30.5 C 27.701431 30.593184 28.816254 30.078966 29.955078 30.072266 C 31.210589 30.064923 32.445131 30.5923 33.697266 30.5 C 34.523053 30.439131 35.27157 29.916035 36.097656 29.859375 C 37.822518 29.74107 39.517487 30.4674 41.246094 30.5 C 42.694317 30.52731 44.125743 30.123253 45.574219 30.126953 C 46.941808 30.130443 48.312902 30.734988 49.660156 30.5 C 50.613442 30.333728 51.326227 29.348157 52.291016 29.273438 C 53.757075 29.159902 55.061276 30.386586 56.527344 30.5 C 57.782155 30.597071 59.062452 29.654588 60.273438 30.019531 C 62.067461 30.56018 63.5 30.5 63.5 30.5 L 63.5 -0.5 L 0.5 -0.5 z M 64.5 -0.5 L 64.5 30.5 C 64.5 30.5 65.932543 30.56018 67.726562 30.019531 C 68.937552 29.654588 70.217846 30.597071 71.472656 30.5 C 72.938726 30.386586 74.242924 29.159902 75.708984 29.273438 C 76.673774 29.348157 77.386564 30.333728 78.339844 30.5 C 79.687104 30.734988 81.058191 30.130443 82.425781 30.126953 C 83.874261 30.123253 85.305676 30.52731 86.753906 30.5 C 88.482506 30.4674 90.177484 29.74107 91.902344 29.859375 C 92.728433 29.916035 93.476947 30.439131 94.302734 30.5 C 95.554869 30.5923 96.789411 30.064923 98.044922 30.072266 C 99.183746 30.078966 100.29857 30.593184 101.43359 30.5 C 102.05544 30.44895 102.60651 30.01574 103.22852 29.966797 C 104.57519 29.860834 105.89981 30.610778 107.24609 30.5 C 108.64276 30.385076 109.86974 29.149243 111.26562 29.273438 C 112.1589 29.352918 112.76995 30.391436 113.66016 30.5 C 114.5084 30.603447 115.30294 29.9598 116.15625 29.914062 C 117.73681 29.829342 119.29082 30.642866 120.86719 30.5 C 121.87107 30.40902 122.74453 29.627603 123.75195 29.59375 C 125.03645 29.55059 127.5 30.5 127.5 30.5 L 127.5 -0.5 L 64.5 -0.5 z "
+     id="rect4182" />
+</svg>
