@@ -6,7 +6,7 @@ define(function () {
         volume = 0,
         history = [],
         historyFull = false,
-        multiplier = 1,
+        multiplier = 2.5,
         callbacks = [];
 
     navigator.mediaDevices.getUserMedia({
@@ -60,7 +60,7 @@ define(function () {
     }
 
     self.setVolumeMultiplier = function(mul) {
-      multiplier = mul;
+      multiplier = 5 * mul;
     };
 
     function findAverage(arr) {

@@ -3,11 +3,11 @@ define(function(require) {
 
   // entry point
   var volumeProcessor = require('./volumeProcessor'),
-      volumeAnimator = new require('./volumeAnimator')(volumeProcessor),
+      volumeAnimator = new require('./volumeAnimator'),
       paused = false,
-      pauseButton = document.getElementById('pause-button');
+      pauseButton = document.getElementById('pause-button'),
+      slider = document.getElementById('volume-slider');
 
-  volumeProcessor.setVolumeMultiplier(5);
   window.requestAnimationFrame(volumeAnimator.noiseAnimate);
 
   function toggleExecution(event) {
@@ -21,6 +21,10 @@ define(function(require) {
 
     paused = !paused;
   }
+
+  slider.addEventListener('input', function() {
+    volumeProcessor.setVolumeMultiplier(this.value / 100);
+  });
 
   pauseButton.addEventListener('click', toggleExecution);
   document.addEventListener('keydown', function(event) {

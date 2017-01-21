@@ -1,8 +1,8 @@
-define(function() {
+define(['require'], function(require) {
   
-  function volumeAnimator(vp) {
+  function volumeAnimator() {
     var self = this,
-        volumeProcessor = vp,
+        volumeProcessor = require('./volumeProcessor'),
         coverLayer = document.getElementById('cover-layer'),
         cover = document.getElementById('cover'),
         start = 0,
@@ -50,5 +50,5 @@ define(function() {
     return self;
   }
 
-  return volumeAnimator;
+  return new volumeAnimator();
 });
