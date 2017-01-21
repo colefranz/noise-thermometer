@@ -3,11 +3,12 @@ define(function() {
   function volumeAnimator(vp) {
     var self = this,
         volumeProcessor = vp,
-        element = document.getElementById('cover'),
+        coverLayer = document.getElementById('cover-layer'),
+        cover = document.getElementById('cover'),
         start = 0,
         volume = 0,
-        step = 0,
         startHeight = 0,
+        step = 0,
         animationRequestId,
         paused = false;
     
@@ -21,9 +22,8 @@ define(function() {
         return;
       }
 
-      newHeight = startHeight + ((window.innerHeight * step * Math.min(1.0, (progress / 200))));
-
-      element.style.bottom = newHeight + "px";
+      newHeight = startHeight + ((100 * step * Math.min(1.0, (progress / 200))));
+      cover.style.transform = 'translate(0%, ' + -newHeight + '%)';
 
       if (progress > 200) {
         startHeight = newHeight;
@@ -38,13 +38,13 @@ define(function() {
     self.pause = function() {
       paused = true;
       window.cancelAnimationFrame(animationRequestId);
-      element.style.webkitAnimationPlayState = 'paused';
+      coverLayer.style.webkitAnimationPlayState = 'paused';
     };
 
     self.unpause = function() {
       paused = false;
       animationRequestId = window.requestAnimationFrame(self.noiseAnimate);
-      element.style.webkitAnimationPlayState = 'running';
+      coverLayer.style.webkitAnimationPlayState = 'running';
     };
 
     return self;

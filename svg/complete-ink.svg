@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="64"
+   viewBox="0 0 32 64.000002"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="complete-ink.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="13.25"
+     inkscape:cx="16"
+     inkscape:cy="32"
+     inkscape:document-units="px"
+     inkscape:current-layer="thermo-layer"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     units="px"
+     inkscape:snap-grids="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4136" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="water-layer"
+     inkscape:label="water-layer"
+     style="display:none">
+    <rect
+       style="fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4208"
+       width="31"
+       height="63"
+       x="0.5"
+       y="0.5" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="cover-layer"
+     inkscape:label="cover-layer"
+     style="display:none">
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 1.5,1.5 29,0 0,51 c 0,0 -1.414676,-0.419876 -2.140169,-0.400249 -0.563428,0.01524 -1.079347,0.41243 -1.64285,0.400249 -0.798324,-0.01726 -1.503421,-0.710023 -2.300776,-0.667082 -0.5843,0.03147 -1.04167,0.607278 -1.623752,0.667082 -0.336629,0.03459 -0.659889,-0.169996 -0.997874,-0.186783 C 21.068822,52.277171 20.348717,52.52893 19.622642,52.5 18.867095,52.469896 18.167887,52.299955 17.385174,52.126434 16.774799,51.99112 16.171539,52.532118 15.54717,52.5 14.982104,52.470933 14.490033,52.051115 13.92721,51.993017 12.928296,51.889904 11.93271,52.314445 10.928876,52.286534 10.113078,52.263851 9.3202921,51.822544 8.5092039,51.912968 7.9785638,51.972126 7.5508529,52.454495 7.0188679,52.5 5.8410246,52.600749 4.7258788,51.700445 3.5463843,51.779552 2.8248384,51.827945 1.5,52.5 1.5,52.5 Z"
+       id="rect4210"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccaaaaaasaaaaaacc" />
+  </g>
+  <g
+     inkscape:label="thermo-layer"
+     inkscape:groupmode="layer"
+     id="thermo-layer"
+     style="display:inline">
+    <path
+       style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 16,2.5000002 c -1.939,0 -3.5,1.561 -3.5,3.5 l 0,40.3730458 A 7.5,7.5 0 0 0 8.5,53 7.5,7.5 0 0 0 16,60.5 7.5,7.5 0 0 0 23.5,53 a 7.5,7.5 0 0 0 -4,-6.628907 l 0,-40.3710928 c 0,-1.939 -1.561,-3.5 -3.5,-3.5 z"
+       id="rect4213"
+       inkscape:connector-curvature="0" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="thermometer-toper"
+     inkscape:label="thermometer-toper"
+     style="display:inline">
+    <path
+       transform="translate(0,32)"
+       sodipodi:type="inkscape:offset"
+       inkscape:radius="-0.85838103"
+       inkscape:original="M 16 -29.5 C 14.061 -29.5 12.5 -27.939 12.5 -26 L 12.5 14.373047 A 7.5 7.5 0 0 0 8.5 21 A 7.5 7.5 0 0 0 16 28.5 A 7.5 7.5 0 0 0 23.5 21 A 7.5 7.5 0 0 0 19.5 14.371094 L 19.5 -26 C 19.5 -27.939 17.939 -29.5 16 -29.5 z "
+       xlink:href="#rect4213"
+       style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path4218"
+       d="m 16,-28.642578 c -1.478305,0 -2.642578,1.164273 -2.642578,2.642578 l 0,40.373047 a 0.85846687,0.85846687 0 0 1 -0.457031,0.759765 C 10.777034,16.25319 9.3594379,18.599191 9.3574219,21 c 0,1.738772 0.7158151,3.467768 1.9453121,4.697266 1.229498,1.229497 2.958494,1.945312 4.697266,1.945312 1.738772,0 3.467768,-0.715815 4.697266,-1.945312 1.229497,-1.229498 1.945312,-2.958494 1.945312,-4.697266 -0.0014,-2.401386 -1.419103,-4.748494 -3.542969,-5.869141 a 0.85846687,0.85846687 0 0 1 -0.457031,-0.759765 l 0,-40.371094 c 0,-1.478305 -1.164273,-2.642578 -2.642578,-2.642578 z" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="cover-background"
+     inkscape:label="cover-background"
+     style="display:none">
+    <path
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 0.5,0.5 0,63 31,0 0,-63 -31,0 z m 15.5,2 c 1.939,0 3.5,1.561 3.5,3.5 l 0,40.371094 A 7.5,7.5 0 0 1 23.5,53 7.5,7.5 0 0 1 16,60.5 7.5,7.5 0 0 1 8.5,53 a 7.5,7.5 0 0 1 4,-6.626953 L 12.5,6 c 0,-1.939 1.561,-3.5 3.5,-3.5 z"
+       id="rect4249"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
