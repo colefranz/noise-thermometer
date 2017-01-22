@@ -1,7 +1,7 @@
 {
   "name": "Noise Thermometer",
   "description": "A visual representation of noise from 'Library' to 'Zoo'.",
-  "version": "0.1",
+  "version": "0.2",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"]
