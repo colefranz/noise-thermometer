@@ -5,10 +5,10 @@ define(function(require) {
   var volumeProcessor = require('./volumeProcessor'),
       volumeAnimator = new require('./volumeAnimator'),
       paused = false,
+      appId = 'noise-thermometer-app',
       pauseButton = document.getElementById('pause-button'),
-      slider = document.getElementById('volume-slider');
-
-  window.requestAnimationFrame(volumeAnimator.noiseAnimate);
+      slider = document.getElementById('volume-slider'),
+      volumeLabel = document.getElementById('volume-label');
 
   function toggleExecution(event) {
     if (paused) {
@@ -22,8 +22,42 @@ define(function(require) {
     paused = !paused;
   }
 
+  function checkLocalStorage() {
+    chrome.storage.sync.get(appId + 'sensitivity', function(items) {
+      if (items[appId + 'sensitivity']) {
+        setSensitivity(items[appId + 'sensitivity']);
+      }
+    });
+  }
+
+  function syncStorage(key, value) {
+    var keyValuePair = {};
+
+    keyValuePair[appId + key] = value;
+    chrome.storage.sync.set(keyValuePair);
+  }
+
+  function setSensitivity(value) {
+    volumeLabel.textContent = value + '%';
+    volumeProcessor.setSensitivity(value);
+    syncStorage('sensitivity', value);
+  }
+
   slider.addEventListener('input', function() {
-    volumeProcessor.setVolumeMultiplier(this.value / 100);
+    setSensitivity(this.value);
+  });
+
+  slider.addEventListener('mouseenter', function() {
+    this.focus();
+  });
+
+  slider.addEventListener('mouseleave', function() {
+    this.blur();
+  });
+
+  slider.addEventListener('wheel', function(event) {
+    this.value = this.value - (event.deltaY / Math.abs(event.deltaY));
+    setSensitivity(this.value);
   });
 
   pauseButton.addEventListener('click', toggleExecution);
@@ -32,4 +66,8 @@ define(function(require) {
       toggleExecution();
     }
   });
+
+
+  window.requestAnimationFrame(volumeAnimator.noiseAnimate);
+  checkLocalStorage();
 });

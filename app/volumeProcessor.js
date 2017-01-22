@@ -4,9 +4,7 @@ define(function () {
     var self = this,
         audioContext = new AudioContext(),
         volume = 0,
-        history = [],
-        historyFull = false,
-        multiplier = 2.5,
+        multiplier = 5,
         callbacks = [];
 
     navigator.mediaDevices.getUserMedia({
@@ -32,7 +30,6 @@ define(function () {
       var buf = event.inputBuffer.getChannelData(0),
           bufLength = buf.length,
           currVolume,
-          tempHistory,
           i;
 
       // square everything and do a root-mean-square
@@ -59,8 +56,13 @@ define(function () {
       return volume;
     }
 
-    self.setVolumeMultiplier = function(mul) {
-      multiplier = 5 * mul;
+    // input as a % 1-100
+    // multiplied by 10 and divided by 100%
+    self.setSensitivity = function(mul) {
+      mul = parseInt(mul);
+      if (!isNaN(mul)) {
+        multiplier = mul / 10;
+      }
     };
 
     function findAverage(arr) {

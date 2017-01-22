@@ -8,9 +8,10 @@
       "scripts": ["background.js"]
     }
   },
-  "icons": { "16": "icon/thermo-16.png", "128": "icon/thermo-128.png" },
+  "icons": { "16": "icon/icon-16.png", "128": "icon/icon-128.png" },
   "permissions": [
     "audioCapture", 
-    "videoCapture"
+    "videoCapture",
+    "storage"
   ]
 }

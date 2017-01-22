@@ -23,7 +23,7 @@ define(['require'], function(require) {
       }
 
       newHeight = startHeight + ((100 * step * Math.min(1.0, (progress / 200))));
-      cover.style.transform = 'translate(0%, ' + -newHeight + '%)';
+      cover.style.transform = 'translateY(' + -newHeight + '%)';
 
       if (progress > 200) {
         startHeight = newHeight;

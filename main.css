@@ -1,6 +1,12 @@
 body {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   padding: 0;
   margin: 0;
+  height: 100%;
 }
 
 #cover-layer {
@@ -16,55 +22,94 @@ body {
   bottom: 0;
   left: 0;
   text-align: center;
-  z-index: 11;
-  background: white;
+  background: #E5E5E5;
+}
+
+#menu {
+  position: relative;
+  padding: 15px;
+  width: 40%;
+  max-width: 250px;
+  height: 180px;
+  transform: translateY(calc(-100%));
+  transition: all .25s linear; 
+  background-color: rgba(6, 174, 213, 0.2);
+}
+
+#menu:hover {
+  transform: translateY(0%);
 }
 
 .input-container {
-  position: relative;
-  z-index: 100;
+  height: 160px;
+  width: 100%;
+  text-align: center;
+}
+
+.menu-footer {
+  position: absolute;
+  height: 20px;
+  width: 40px;
+  padding: 5px;
+  bottom: -30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #06AED5;
+  font-size: 1.0em;
 }
 
 .button {
+  display: inline-block;
   position: relative;
-  z-index: 100;
-  background: white;
-  width: 50px;
+  background: #E5E5E5;
+  border: 1px solid #E5E5E5;
+  width: 80px;
   height: 50px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  text-align: center;
+  line-height: 50px;
+  transition: all 0.1s ease-in;
+  margin: 5px;
+}
+
+.button:hover {
+  background: #06AED5;
+  border: 1px solid #086788;
 }
 
 input[type=range] {
   -webkit-appearance: none;
   margin: 10px 0;
-  width: 50%;
+  width: 100%;
+  background: transparent;
 }
+
 input[type=range]:focus {
   outline: none;
 }
+
 input[type=range]::-webkit-slider-runnable-track {
-  width: 50%;
-  height: 7px;
+  height: 8px;
   cursor: pointer;
-  box-shadow: 0px 0px 1px #000000;
-  background: #FFFFFF;
+  background: #06AED5;
   border-radius: 8px;
-  border: 1px solid #010101;
+  border: 1px solid #086788;
 }
+
 input[type=range]::-webkit-slider-thumb {
-  box-shadow: 1px 1px 2px #000000;
-  border: 1px solid #00001E;
+  -webkit-appearance: none;
+  border: 1px solid #086788;
   height: 16px;
   width: 16px;
   border-radius: 8px;
-  background: #00FF00;
+  background: #086788;
   cursor: pointer;
-  -webkit-appearance: none;
-  margin-top: -5.5px;
+  margin-top: -4px;
 }
+
 input[type=range]:focus::-webkit-slider-runnable-track {
-  background: #FFFFFF;
+  background: #06AED5;
 }
 
 @keyframes rocking {
