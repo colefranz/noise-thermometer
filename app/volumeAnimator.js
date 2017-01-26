@@ -1,4 +1,4 @@
-define(['require'], function(require) {
+define(['require', './volumeProcessor'], function(require) {
   
   function volumeAnimator() {
     var self = this,

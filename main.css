@@ -44,6 +44,7 @@ body {
   height: 160px;
   width: 100%;
   text-align: center;
+  user-select: none;
 }
 
 .menu-footer {
@@ -56,6 +57,7 @@ body {
   letter-spacing: 2px;
   background: #06AED5;
   font-size: 1.0em;
+  user-select: none;
 }
 
 .button {
@@ -71,6 +73,7 @@ body {
   line-height: 50px;
   transition: all 0.1s ease-in;
   margin: 5px;
+  user-select: none;
 }
 
 .button:hover {
